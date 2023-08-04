@@ -1,12 +1,14 @@
 import "./styles.css";
-import weatherIcon from "/src/clear-sky-day.png";
 
 export default function todayForecast() {
   return (
     <div className="row">
       <div className="col-6">
         <div className="d-flex weather-temperature">
-          <img src={weatherIcon} alt="sunny" />
+          <img
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+            alt="sunny"
+          />
           <strong>12</strong>
           <span className="units">
             <a href="#" className="active">
