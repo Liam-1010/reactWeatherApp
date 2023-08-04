@@ -1,5 +1,5 @@
 import "./styles.css";
-import weatherIcon from "/public/clear-sky-day.png";
+import weatherIcon from "/src/clear-sky-day.png";
 import axios from "axios";
 
 function getCityForecast(city) {
